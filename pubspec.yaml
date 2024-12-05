@@ -1,0 +1,53 @@
+name: green_fi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.2.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.24.2
+  firebase_remote_config: ^4.3.3
+  app_tracking_transparency: ^2.0.4
+  appsflyer_sdk: 
+  flutter_inappwebview: ^5.8.0
+  flutter_bloc: ^8.1.6
+  shared_preferences: ^2.3.3
+  flutter_svg: ^2.0.16
+  intl: ^0.20.1
+  cached_network_image: ^3.4.1
+  sqflite: ^2.4.1
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: w300
+      fonts:
+        - asset: assets/SF-Pro-Display-Light.ttf
+    - family: w400
+      fonts:
+        - asset: assets/SF-Pro-Display-Regular.ttf
+    - family: w500
+      fonts:
+        - asset: assets/SF-Pro-Display-Medium.ttf
+    - family: w600
+      fonts:
+        - asset: assets/SF-Pro-Display-SemiBold.ttf
+    - family: w700
+      fonts:
+        - asset: assets/SF-Pro-Display-Bold.ttf
