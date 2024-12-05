@@ -132,7 +132,6 @@ class MyAppp extends StatelessWidget {
                 BlocProvider(create: (context) => NavBloc()),
               ],
               child: MaterialApp(
-                title: 'Flutter Demo',
                 debugShowCheckedModeBanner: false,
                 theme: ThemeData(
                   scaffoldBackgroundColor: Colors.black,

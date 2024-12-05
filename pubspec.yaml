@@ -15,7 +15,7 @@ dependencies:
   firebase_remote_config: ^4.3.3
   app_tracking_transparency: ^2.0.4
   appsflyer_sdk: 
-  flutter_inappwebview: ^5.8.0
+  flutter_inappwebview: ^6.1.0
   flutter_bloc: ^8.1.6
   shared_preferences: ^2.3.3
   flutter_svg: ^2.0.16

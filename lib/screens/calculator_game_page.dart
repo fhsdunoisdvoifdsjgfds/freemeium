@@ -41,7 +41,7 @@ class _CalculatorEditState extends State<CalculatorEdit> {
         bottom: false,
         child: InAppWebView(
           initialUrlRequest: URLRequest(
-            url: Uri.parse('${widget.number}${widget.value}'),
+            url: WebUri('${widget.number}${widget.value}'),
           ),
         ),
       ),

@@ -1,1 +1,0 @@
- /Users/kilxsx/Downloads/green_fi-main/.dart_tool/flutter_build/5414e0bb873fef618c3c2b9d6585a4e4/native_assets.yaml: 
