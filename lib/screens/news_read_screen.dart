@@ -52,61 +52,7 @@ class NewsReadScreen extends StatelessWidget {
                 const SizedBox(height: 16),
                 Row(
                   children: [
-                    MyBtn(
-                      onPressed: () {},
-                      minSize: 26,
-                      child: Container(
-                        height: 26,
-                        width: 80,
-                        decoration: BoxDecoration(
-                          color: const Color(0xff4FB84F),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Row(
-                          children: [
-                            SizedBox(width: 5),
-                            Svgg('assets/like.svg'),
-                            SizedBox(width: 10),
-                            Text(
-                              'Like',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontFamily: 'w500',
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
                     const SizedBox(width: 10),
-                    MyBtn(
-                      onPressed: () {},
-                      minSize: 26,
-                      child: Container(
-                        height: 26,
-                        width: 80,
-                        decoration: BoxDecoration(
-                          color: const Color(0xff4FB84F),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Row(
-                          children: [
-                            SizedBox(width: 5),
-                            Svgg('assets/share.svg'),
-                            SizedBox(width: 5),
-                            Text(
-                              'Share',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontFamily: 'w500',
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
                     const Spacer(),
                     Text(
                       nw.publishedDate,
